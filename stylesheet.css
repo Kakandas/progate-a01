@@ -1,0 +1,172 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: #000;
+    display: block;
+    float: left;
+    transition: all 0.9s;
+    opacity: 0.8;
+}
+
+.header-right a:hover {
+    color: #000;
+    opacity: 0.4;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-blu {
+    background-color: #1053B7;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/cover.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    /* opacity: 0.8; */
+    height: 700px;
+}
+
+.top-wrapper h1 {
+    opacity: 0.8;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.8;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.facebook {
+    background-color: #1053B7;
+    margin-right: 10px;
+}
+
+.heading {
+    color: #fff;
+}
+
+.heading p {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+
+.package-wrapper {
+    background-color: #1053B7;
+    padding: 67px 100px;
+    width: 100%;
+    height: 828px;
+}
+
+.package {
+    float: left;
+    width: 30%;
+    border-radius: 10px;
+    height: 600px;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.package img {
+    width: 100%;
+}
+
+.remark {
+    padding-right: 10px;
+}
+
+.rating {
+    margin-top: 15px;
+}
