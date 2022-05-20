@@ -170,3 +170,78 @@ header {
 .rating {
     margin-top: 15px;
 }
+/******************************************Diedit Fakhri*******************************/
+
+.remark{
+    width: 90%;
+    margin: auto;
+}
+.remark p{
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.remark h2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.remark h3{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.remark p{
+    margin-top: 20px;
+}
+
+.package-btn{
+    text-align: center;
+}
+.detail{
+    display: inline-block;
+    padding: 7px 40px;
+    border: 2px solid #1053B7;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    color: #1053B7;
+    transition: .5s;
+}
+
+.detail:hover{
+    background-color: #1053B7;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.pesan{
+    padding: 9px 42px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #1053B7;
+    transition: .3s;
+}
+
+.pesan:hover{
+    background-color: #fff;
+    color: #1053B7;
+    border: 2px solid #1053B7;
+    padding: 7px 40px; 
+}
+
+.package img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
